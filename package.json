@@ -1,0 +1,37 @@
+{
+	"name": "@sgy/vault-client",
+	"version": "0.1.2",
+	"description": "Vault Client",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc",
+		"start": "tsc && node ./dist/index.js"
+	},
+	"author": {
+		"name": "sgyio",
+		"email": "sgy@sgy.io",
+		"url": "https://github.com/sgyio"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sgyio/vault-client"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^9.4.2",
+		"tslint": "^5.9.1",
+		"typescript": "^2.7.1"
+	},
+	"dependencies": {
+		"inversify": "^4.10.0",
+		"nconf": "^0.10.0",
+		"reflect-metadata": "^0.1.12",
+		"request": "^2.88.0",
+		"request-promise": "^4.2.2"
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "removeComments": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "declaration": true,
+        "noImplicitAny": false,
+        "outDir": "./dist",
+        "lib": ["es6", "dom"],
+        "types": []
+    }
+}
