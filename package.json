@@ -1,6 +1,6 @@
 {
 	"name": "@sgy/vault-client",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Vault Client",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -23,9 +23,8 @@
 	},
 	"license": "MIT",
 	"devDependencies": {
-		"@types/node": "^9.4.2",
-		"tslint": "^5.9.1",
-		"typescript": "^2.7.1"
+		"@types/node": "^9.6.55",
+		"typescript": "^3.7.5"
 	},
 	"dependencies": {
 		"inversify": "^4.10.0",
