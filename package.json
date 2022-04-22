@@ -28,7 +28,7 @@
 	},
 	"dependencies": {
 		"inversify": "^4.10.0",
-		"nconf": "^0.10.0",
+		"nconf": "^0.11.4",
 		"reflect-metadata": "^0.1.12",
 		"request": "^2.88.0",
 		"request-promise": "^4.2.2"
